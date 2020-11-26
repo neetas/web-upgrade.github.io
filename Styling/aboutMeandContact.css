@@ -13,7 +13,7 @@
 }
 
 .insta{
-  max-height:71%;  
+  max-height:71%;
 }
 
 .contact-deets{
@@ -54,7 +54,7 @@
 .originals{
   position: relative;
   border: solid;
-  border-color: black;
+  border-color: darkslategrey;
   width: 50vw;
   height: 50vw;
   max-width:450px;

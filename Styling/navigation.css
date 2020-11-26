@@ -13,7 +13,7 @@
  left: 10%;
  margin-left: 20px;
  width: 20vw;
- min-width:250px;
+ min-width:300px;
 }
 
 .logoBlack{
@@ -30,7 +30,7 @@
 }
 
 .navbar-default{
-  color: rgba(228, 236, 233, 0.76);
+  /* color: rgba(228, 236, 233, 0.76); */
   border-style: none;
 }
 .navbar-default:before{
@@ -47,9 +47,10 @@
 
 .navbar-fixed-top.scrolled {
   background-color: #45443e;
-  background-image: url(../Assets/megreenbackgroundonly.jpg);
+  background-image: url(../Assets/Navbar2.png);
   background-size:cover;
   transition: background-color 2000ms linear;
+  /* opacity: 0.7; */
 }
 
 #navbar-override{
@@ -61,6 +62,7 @@
   float: left;
   overflow: hidden;
   max-height: inherit;
+  margin-right:10%;
 }
 
 #logo:hover{
@@ -77,6 +79,8 @@
  .nav-pills>li>a{
   border:solid;
   border-color: transparent;
+  background-color(255,255,255,0.1);
+  color: darkslategrey;
 }
 
 .navbar-toggle{
@@ -85,18 +89,21 @@
 
 .nav-pills>li>a:hover{
   padding:-5px;
-  border-color: rgb(213, 224, 228);
-  background-color: rgb(213, 224, 228);
+  border-color: whitesmoke;
+  background-color: whitesmoke;
+  color: seagreen;
 }
 
 .nav-pills>li.active>a,
 .nav-pills>li.active>a:hover
 .nav-pills>li.active>a:focus  {
-  background-color: rgb(213, 224, 228) !important;
+  /* background-color: rgb(213, 224, 228) !important; */
+  background-color:blue;
   color: rgb(32,28,29) !important;
   cursor: default;
   border-color: rgb(16, 21, 33);
 }
+
 
 .navigation{
   list-style-type: none;
@@ -121,7 +128,13 @@
   min-width:30px;
   max-width:40px;
   margin: 5px;
+
 }
+
+.instaSocial{
+  background-color: rgba(255,255,255,0.4);
+}
+
 .toggler{
   border: none;
   background-color: transparent;
